@@ -17,7 +17,7 @@ $this->title = 'My Yii Application';
 					<input type="hidden" name="product" value="<?= $value->name?>" />
 					<input type="hidden" name="amount" value="<?= $value->price?>" />
 					<input type="hidden" name="successurl" value="<?= $url?>" />
-					<button onclick="$('#payment').submit();" class="button btn btn-primary">Buy</button>  
+					<button type="submit" class="button btn btn-primary">Buy</button>  
 				</form>
 
 			</div>
